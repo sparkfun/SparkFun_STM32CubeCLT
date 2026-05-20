@@ -2,7 +2,7 @@
 
 This repo contains SparkFun's copy of ST's STM32CubeCLT command-line toolset for Linux
 
-Because STM32CubeCLT is licenced software, the copy here is passphrase encrypted
+Because STM32CubeCLT is licenced software, the copy here is passphrase encrypted. We pull it in and decrypt it using secrets when compiling (e.g.) the [SparkFun RTK LoRa Firmware](https://github.com/sparkfun/SparkFun_RTK_LoRa_Firmware)
 
 Due to its size, the st-stm32cubeclt zip is stored with Git LFS (Large File Storage)
 
